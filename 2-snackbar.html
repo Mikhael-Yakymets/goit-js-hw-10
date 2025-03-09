@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <script type="module" crossorigin src="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-B7Mv1nBz.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="100" height="30">
+          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./1-timer.html">Timer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./2-snackbar.html"
+            >Snackbar</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">Go back</a>
+
+      </div>
+      <div class="container form-conteiner">
+        <form class="form">
+          <label class="form-label">
+            Delay (ms)
+            <input class="form-input" type="number" name="delay" required />
+          </label>
+
+          <fieldset class="form-label area">
+            <legend>State</legend>
+            <label class="">
+              <input
+                class=""
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              Fulfilled
+            </label>
+            <label class="">
+              <input
+                class=""
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              Rejected
+            </label>
+          </fieldset>
+
+          <button class="form-btn" type="submit">Create notification</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with Mykhail Yakymets ✨ by
+      <a
+        class="footer-link"
+        href="https://goit.global/ua/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT team
+      </a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
